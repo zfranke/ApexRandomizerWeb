@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+            <head>
+                <title>Apex Legends Randomizer</title>
+
+                <style>
+                    body {
+                        background-color: #000000;
+                        color: #FFFFFF;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+
+                    #legend {
+                        width: 300px;
+                        height: 300px;
+                    }
+
+                    #weapon {
+                        width: 300px;
+                        height: 300px;
+                    }
+
+                    #legendText {
+                        font-size: 24px;
+                    }
+
+                    #weaponText {
+                        font-size: 24px;
+                    }
+
+                    #button {
+                        width: 100px;
+                        height: 50px;
+                        font-size: 24px;
+                    }
+                </style>
+
+                
+
+            </head>
+
+            <body>
+                <div id="legendContainer">
+                    <img src="pictures/legends/Kills_Icon.png" id="legendPic" alt="Default Legend">
+                    <p id="legendText">Legend</p>
+                </div>
+
+                <div id="weaponContainer">
+                    <img src="pictures/weapons/Damage.png" id="weaponPic" alt="Default Weapon">
+                    <p id="weaponText">Weapon</p>
+                </div>
+
+                <div id="buttons">
+                    <button id="randomizeButton" onclick="display()">Randomize</button>
+                    <button id="resetButton" onclick="reset()">Reset</button>
+                </div>
+
+                
+
+            </body>
+
+            <script id="script" src="script.js"></script>
+        </html>

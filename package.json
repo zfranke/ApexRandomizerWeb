@@ -2,7 +2,7 @@
   "name": "apexrandomizerweb",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/zfranke/ApexRandomizerWeb/issues"
   },
-  "homepage": "https://github.com/zfranke/ApexRandomizerWeb#readme"
+  "homepage": "https://github.com/zfranke/ApexRandomizerWeb#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
 }
