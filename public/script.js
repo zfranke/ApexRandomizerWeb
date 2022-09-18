@@ -25,21 +25,21 @@ const legendsSelection = [
     "Valkyrie",
     "Vantage",
     "Seer",
-    "Mad Maggie"
+    "Mad_Maggie"
 ];
     
 //Array of weapons
 const weaponsSelection = [
     "30-30_Repeater",
     "Alternator_SMG",
-    "Bocek_Bow",
+    "Bocek_Compound_Bow",
     "C.A.R._SMG",
     "Charge_Rifle",
     "Devotion_LMG",
     "EVA-8_Auto",
     "G7_Scout",
     "HAVOC_Rifle",
-    "Hemlok_Burst AR",
+    "Hemlok_Burst_AR",
     "Kraber_.50-Cal_Sniper",
     "L-STAR_EMG",
     "Longbow_DMR",
@@ -91,11 +91,17 @@ function display() {
 //Function to reset the legend and weapon images
 function reset() {
     //Get the legend and weapon image elements
-    const legend = document.getElementById("legend");
-    const weapon = document.getElementById("weapon");
+    const legend = document.getElementById("legendPic");
+    const weapon = document.getElementById("weaponPic");
+    //Get the text to the legend and weapon
+    const legendText = document.getElementById("legendText");
+    const weaponText = document.getElementById("weaponText");
     //Set the image source to the default image
-    legend.src = `./pictures/Kills_Icon.png`;
-    weapon.src = `./pictures/Damage.png`;
+    legend.src = `./pictures/legends/Kills_Icon.png`;
+    weapon.src = `./pictures/weapons/Damage.png`;
+    //Set the text to the default text
+    legendText.innerHTML = "Legend";
+    weaponText.innerHTML = "Weapon";
 }
 
 //Language: javascript

@@ -1,0 +1,30 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    padding-top: 10px;
+}
+
+
+
+#randomizeButton {
+    border:solid 2px #fff;
+    background: transparent;
+    color: #fff !important;
+}
+
+#randomizeButton:hover {
+    background: #fff;
+    color: #000 !important;
+}
+
+#resetButton {
+    border: solid 2px #BE201C;
+    background: transparent;
+    color: #fff !important;
+}
+
+#resetButton:hover {
+    background: #BE201C;
+    color: #000 !important;
+}
