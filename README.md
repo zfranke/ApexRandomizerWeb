@@ -34,9 +34,10 @@ To run this program as a docker container using the dockerfile, you need to do t
 To run this program from my pre-build image on Docker Hub, you need to do the following:
 
 1. Install [Docker](https://www.docker.com/products/docker-desktop)
-2. Run `docker run -p 3030:3030 -d zfranke/apexwebrandomizer` in the main directory of the repository
-3. Go to `localhost:3030` in your browser
-4. Follow onscreen instructions
-5. ................
-6. Profit
+2. Run 'docker pull zfranke/apexwebrandomizer'
+3. Run `docker run -p 3030:3030 -d zfranke/apexwebrandomizer` in the main directory of the repository
+4. Go to `localhost:3030` in your browser
+5. Follow onscreen instructions
+6. ................
+7. Profit
 
