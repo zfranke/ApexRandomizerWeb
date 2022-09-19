@@ -1,11 +1,14 @@
 FROM node:latest
+# Create app directory
 WORKDIR /app
-COPY package.json /app
+#Install the dependencies
+COPY package.json ./
 
+#Make sure its all installed and ready to go
 RUN npm install
 COPY . /app
-EXPOSE 3030
-CMD ["nodemon", "public/app.js"]
 
-# Language: dockerfile
-# Path: dockerfile
+#Get it?
+EXPOSE 3030
+# Light it up
+CMD ["npm", "start"]
